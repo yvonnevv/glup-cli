@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>防伪</title>
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/result.css">
+
+    <script>
+        var baseWidth = 750;
+        var dpr = window.devicePixelRatio;
+        var currentWidth = document.documentElement.clientWidth;
+        var remSize = 0;
+        var scale = 0;
+        scale = currentWidth / baseWidth;
+        remSize = baseWidth / 20;
+        remSize = remSize * scale;
+        document.documentElement.style.fontSize = remSize + 'px';
+        document.documentElement.setAttribute('data-dpr', `${dpr}`);
+    </script>
+</head>
+<body>
+    <div class="result">
+        <div class="app-header">
+            <p>汾酒防伪</p>
+            <span class="app-header__btns">
+                <button id="app-btn-more"></button>
+                <button id="app-btn-close"></button>
+            </span>
+        </div>
+        <div class="result-content">
+            <div class="result-times">
+                <p>该数码为第<span style="color: #FF341F;margin: 0 4px;">1</span>次查询</p>
+                <p style="color: #FF341F;">请核对相应区域数字是否一致,判断真伪</p>
+                <p>汾酒（53度玻瓶）</p>
+            </div>
+            <div class="result-pic">
+                <p class="codes">
+                    <span>7</span>
+                    <span>6</span>
+                    <span>0</span>
+                    <span>3</span>
+                    <span>2</span>
+                    <span>2</span>
+                </p>
+                <img src="https://fwbf.fenjiu.com.cn/BFQuery/Img/wxImg/result.png" alt="">
+                <p class="tips">注意：核对数字颜色是否一致</p>
+                <div class="codes2">
+                    <p>202007000</p>
+                    <p>****V82308</p>
+                </div>
+            </div>
+        </div>
+        <div class="result-confirm">
+            <p>请核对相应区域数字、颜色是否一致</p>
+            <p class="btns"><span class="no">否</span><span class="yes">是</span></p>
+        </div>
+    </div>
+</body>
+</html>

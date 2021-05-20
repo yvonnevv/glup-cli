@@ -1,0 +1,75 @@
+.result {
+    &-content {
+        width: 95%;
+        margin: 0 auto;
+        padding: 40px 20px 60px;
+    }
+
+    &-times {
+        background: #ff9;
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 35px;
+        font-size: 26px;
+        font-weight: 700;
+        padding: 10px;
+        box-sizing: border-box;
+
+        p {
+            margin: 20px;
+        }
+    }
+
+    &-pic {
+        position: relative;
+        p.codes {
+            font-size: 30px;
+            position: absolute;
+            top: 100px;
+            right: 115px;
+        }
+        p.tips {
+            color: #900;
+            font-size: 26px;
+            font-weight: bold;
+            position: absolute;
+            top: 240px;
+            right: 40px;
+        }
+        div.codes2 {
+            font-size: 26px;
+            position: absolute;
+            bottom: 100px;
+            right: 90px;
+        }
+
+        img {
+            margin: 0 auto;
+            display: block;
+        }
+    }
+
+    &-confirm {
+        display: flex;
+        justify-content: space-between;
+        font-size: 26px;
+        padding: 30px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        box-sizing: border-box;
+
+        .btns {
+            span {
+                margin: 0 25px;
+                font-weight: bold;
+                &.yes {
+                    color: #129f49;
+                }
+                &.no {
+                    color: #ff342a;
+                }
+            }
+        }
+    }
+}

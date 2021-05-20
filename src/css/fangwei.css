@@ -1,0 +1,181 @@
+.fangwei {
+  width: 100%;
+  height: 100%;
+}
+
+.fangwei .tishi-box {
+  width: 50%;
+  position: absolute;
+  top: 4rem;
+  right: 0.533333rem;
+}
+
+.fangwei .tishi {
+  z-index: 99999;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0.266667rem;
+  color: #fff;
+  font-size: 0.64rem;
+  font-weight: 900;
+  line-height: 0.933333rem;
+}
+
+.fangwei .text-ani {
+  width: 0;
+  height: 0;
+  border-left: 0.266667rem solid transparent;
+  border-right: 0.266667rem solid transparent;
+  border-bottom: 0.533333rem solid rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: -0.533333rem;
+  left: 65%;
+}
+
+.fangwei .tishi image {
+  width: 20%;
+  height: 0.533333rem;
+}
+
+.fangwei-nick {
+  background: #ef2f24;
+  height: 1.333333rem;
+  padding: 0.533333rem;
+  border-top: 0.026667rem solid white;
+  font-size: 0.693333rem;
+  color: white;
+}
+
+.fangwei-nick img {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: 0 0.533333rem;
+  border-radius: 50%;
+  overflow: hidden;
+  vertical-align: middle;
+  background-color: white;
+}
+
+.fangwei-nick span {
+  position: relative;
+  top: 0.053333rem;
+}
+
+.fangwei-query {
+  width: 95%;
+  background: #fff;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 1.066667rem 0.266667rem;
+  border-radius: 0.266667rem;
+  box-shadow: 0 0 0.16rem #cfcfcf;
+}
+
+.fangwei-query .query-title {
+  font-size: 0.64rem;
+  text-align: left;
+  margin-bottom: 0.533333rem;
+  color: #707072;
+}
+
+.fangwei-query .query-none {
+  font-size: 0.64rem;
+  color: #707072;
+  text-align: center;
+}
+
+.fangwei-query .query-content {
+  max-height: 10.666667rem;
+  overflow-y: scroll;
+}
+
+.fangwei-query .query-content li {
+  display: flex;
+  font-size: 0.64rem;
+  padding: 0 0.133333rem;
+  justify-content: space-between;
+  margin-bottom: 0.266667rem;
+}
+
+.fangwei-main {
+  width: 100%;
+  margin-top: 0.8rem;
+}
+
+.fangwei-code {
+  width: 100%;
+  padding: 2.666667rem 8% 0;
+  box-sizing: border-box;
+  margin-bottom: 1.6rem;
+}
+
+.fangwei-code .codes {
+  width: 6.4rem;
+  height: 6.4rem;
+  background-image: linear-gradient(0deg, #c0ccdb, #d9e2f1);
+  margin: 0 auto;
+  color: #818da2;
+  font-size: 80%;
+  border-radius: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.fangwei-code .codes img {
+  width: 40%;
+  height: 50%;
+}
+
+.fangwei-code .codes p {
+  font-size: 0.64rem;
+}
+
+.fangwei-code .codes-text {
+  text-align: center;
+  font-size: 0.693333rem;
+  color: #707072;
+  font-weight: bold;
+}
+
+.fangwei-code .codes-text span {
+  color: #5178dc;
+}
+
+.fangwei-img {
+  margin: 1.066667rem auto;
+  width: 80%;
+}
+
+.fangwei-img img {
+  width: 100%;
+}
+
+.fangwei-foot {
+  display: flex;
+  font-size: 0.693333rem;
+  font-weight: bold;
+  padding: 0 0.533333rem;
+}
+
+.fangwei-foot .logo {
+  width: 2.133333rem;
+  height: 2.133333rem;
+  margin-right: 0.266667rem;
+}
+
+.fangwei-foot .logo img {
+  width: 100%;
+}
+
+.fangwei-foot .text {
+  text-align: center;
+  width: 100%;
+}
+
+.fangwei-foot span {
+  color: #EE0A24;
+  font-size: 0.96rem;
+}

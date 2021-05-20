@@ -1,0 +1,91 @@
+.cihelper {
+    &-foot {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        font-size: 26px;
+        font-weight: bold;
+        padding: 0 20px;
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin-right: 10px;
+
+            img {
+                width: 100%;
+            }
+        }
+        .text {
+            text-align: center;
+            width: 100%;
+        }
+        span {
+            color: #EE0A24;
+            font-size: 36px;
+        }
+    }
+
+    .search-box {
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+    }
+    
+    .search {
+        width: 85%;
+        height: auto;
+        margin: 0 auto 80px;
+        box-sizing: border-box;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .search-input {
+        width: 70%;
+        background: #e0eefc;
+        border: 1px solid #aeb3b9;
+        border-radius: 5px;
+        color: #000;
+        font-weight: 700;
+        outline: none;
+    }
+    
+    .search-input,.submit {
+        height: 60px;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .submit {
+        width: 20%;
+        line-height: 60px;
+        background: #900;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    .submit-hover {
+        background: #c42026;
+        font-size: 30px;
+    }
+    
+    .search-text {
+        text-align: center;
+        color: #7d2727;
+        font-weight: 700;
+        font-family: 宋体;
+        font-size: 32px;
+    }
+    
+    .search-img {
+        margin: 40px auto;
+        width: 90%;
+    }
+    
+    .search-img img {
+        width: 100%;
+    }
+}
